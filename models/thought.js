@@ -2,8 +2,10 @@ const mongoose = require('mongoose');
 
 const reactionSchema = new mongoose.Schema({
   reactionId: {
-    type: mongoose.Schema.Types.ObjectId,
-    default: () => new mongoose.Types.ObjectId(),
+    type: Number,
+    unique: true,
+    autoIncrement: true,
+    primaryKey: true,
   },
   reactionBody: {
     type: String,
@@ -13,7 +15,8 @@ const reactionSchema = new mongoose.Schema({
     maxlength: 280,
   },
   username: {
-    type: String,
+    type: mongoose.Schema.Types.Number,
+    ref: 'User',
     required: true,
   },
   createdAt: {
@@ -26,11 +29,10 @@ const reactionSchema = new mongoose.Schema({
 const ThoughtSchema = new mongoose.Schema({
     Thought_Id: {
         type: Number,
-        required: true,
         unique: true,
-        index: true,
-        default: 1,
-      },
+        autoIncrement: true,
+        primaryKey: true,
+    },
     thoughtText: {
     type: String,
     required: true,
@@ -43,22 +45,14 @@ const ThoughtSchema = new mongoose.Schema({
     get: (timestamp) => new Date(timestamp).toISOString(),
   },
   username: {
-    type: String,
+    type: mongoose.Schema.Types.Number,
+    ref: 'User',
     required: true,
   },
   reactions: [reactionSchema],
 });
 
-ThoughtSchema.pre('save', function (next) {
-    const thought = this;
-    mongoose.model('Thought', ThoughtSchema).countDocuments((err, count) => {
-      if (err) {
-        return next(err);
-      }
-      thought.Thought_Id = count + 1;
-      next();
-    });
-  });
+
 
 const Thought = mongoose.model('Thought', ThoughtSchema);
 

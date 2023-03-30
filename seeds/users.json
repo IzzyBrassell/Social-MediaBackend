@@ -1,0 +1,32 @@
+[
+    {
+      "username": "Jason Mendosa",
+      "email": "Jtown420@hotmail.com",
+      "thoughts": [5],
+      "friends": [2, 3, 5]
+    },
+    {
+      "username": "Larry Lions",
+      "email": "LLCoolman@gmail.com",
+      "thoughts": [1, 6],
+      "friends": [1, 3, 4]
+    },
+    {
+      "username": "Patricia Petals",
+      "email": "RosePetals@Yahoo.com",
+      "thoughts": [4],
+      "friends": [1, 2, 4]
+    },
+    {
+      "username": "Gerald Herron",
+      "email": "HereticsAnonymous@HAnon.com",
+      "thoughts": [2],
+      "friends": [2, 3, 5]
+    },
+    {
+      "username": "John Adams",
+      "email": "Imnotapresident@HAnon.com",
+      "thoughts": [3],
+      "friends": [4, 1]
+    }
+  ]

@@ -1,0 +1,86 @@
+[
+    {
+        "thoughtText": "I had a Thought, What if I ran for Pres? would y'all vote 4 me?",
+        "username": 2,
+        "reactions": [
+            {
+                "reactionBody": "LOL What a Joke",
+                "username": 5
+            },
+            {
+                "reactionBody": "Probably not dude, you're not president material",
+                "username": 1
+            }
+        ]
+    },
+    {
+        "thoughtText": "This is so much better than being on twitter",
+        "username": 4,
+        "reactions": [
+            {
+                "reactionBody": "TRUE",
+                "username": 5
+            },
+            {
+                "reactionBody": "ABSOLUTELY",
+                "username": 2
+            }
+        ] 
+    },
+    {
+        "thoughtText": "I wonder what Alien Anatomy is like?",
+        "username": 5,
+        "reactions": [
+            {
+                "reactionBody": "Weird thought, but i'm down for this chat... dm me",
+                "username": 4
+            },
+            {
+                "reactionBody": "ALIEN PARTS",
+                "username": 1
+            }
+        ]
+    },
+    {
+        "thoughtText": "Follow 4 Follow?",
+        "username": 3,
+        "reactions": [
+            {
+                "reactionBody": "SHUT UP",
+                "username": 5
+            },
+            {
+                "reactionBody": "God, this is why no one likes you",
+                "username": 5
+            }
+        ]
+    },
+    {
+        "thoughtText": "LOL look at this link! https://www.youtube.com/watch?v=SzgG94Tz2Ak",
+        "username": 1,
+        "reactions": [
+            {
+                "reactionBody": "LOL CLASSIC! Love the office",
+                "username": 1
+            },
+            {
+                "reactionBody": "Did you just react to yourself...?",
+                "username": 3
+            }
+        ]
+    },
+    {
+        "thoughtText": "I think I'd make a good president, yall just hatin",
+        "username": 2,
+        "reactions": [
+            {
+                "reactionBody": "yeah.. sure... thats it",
+                "username": 3
+            },
+            {
+                "reactionBody": "don't fight this dude",
+                "username": 4
+            }
+        ]
+    }
+]
