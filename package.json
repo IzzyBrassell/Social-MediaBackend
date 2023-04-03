@@ -1,0 +1,25 @@
+{
+  "name": "social-mediabackend",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzzyBrassell/Social-MediaBackend.git"
+  },
+  "author": "Izzy Brassell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzzyBrassell/Social-MediaBackend/issues"
+  },
+  "homepage": "https://github.com/IzzyBrassell/Social-MediaBackend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}

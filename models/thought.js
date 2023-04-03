@@ -27,7 +27,7 @@ const reactionSchema = new mongoose.Schema({
 });
 
 const ThoughtSchema = new mongoose.Schema({
-    Thought_Id: {
+    thought_Id: {
         type: Number,
         unique: true,
         autoIncrement: true,

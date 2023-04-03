@@ -1,8 +1,10 @@
-const { connect, connection } = require('mongoose');
+const { connect } = require('mongoose');
 
-connect('mongodb://localhost/SocialBackEnd', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+module.exports = async () => {
+  await connect('mongodb://localhost/SocialBackEnd', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
 
-module.exports = connection;
+  return connection;
+};
